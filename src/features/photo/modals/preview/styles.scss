@@ -1,0 +1,20 @@
+.preview-modal {
+  width: 100% !important;
+  
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  .wrap-img {
+    width: 80%;
+    img {
+      width: 100%;
+      z-index: 200;
+    }
+  }
+
+  .row {
+    z-index: 300;
+    margin-top: 2em;
+  }
+}

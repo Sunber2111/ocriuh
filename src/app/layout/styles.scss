@@ -1,0 +1,27 @@
+html {
+  height: 100vh;
+
+  body {
+    height: 100vh;
+
+    #root {
+      height: 100%;
+
+      .app {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.d-flex{
+  display: flex !important;
+}
+
+a{
+  color: black !important;
+}
+
+.w-100{
+  width: 100% !important;
+}

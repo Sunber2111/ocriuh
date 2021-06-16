@@ -1,0 +1,75 @@
+.home-page {
+  margin: 1em !important;
+
+  a{
+    color: white !important;
+  }
+  .row{
+    padding-top: .6rem !important;
+    padding-bottom: .6rem !important;
+  }
+  .wrap-btn {
+    display: flex !important;
+    justify-content: center !important;
+
+    .btn-theory {
+      background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+      color: white;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .btn-practice {
+      background-image: linear-gradient(to right, #F45C43 0%, #EB3349 100%);
+      color: white;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+
+  .logo {
+    width: auto;
+    height: 3em;
+  }
+
+  .app-c {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start !important;
+
+    .til {
+      font-size: 1rem !important;
+      margin-right: 0.5em;
+      line-height: 2rem;
+      color: #727272;
+      font-weight: 700;
+    }
+    .cre {
+      p {
+        font-size: .9rem;
+        line-height: 2rem;
+        margin-bottom: 0.1rem !important;
+      }
+    }
+  }
+
+  .wrap-title {
+    margin-top: 7%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100%;
+    h1 {
+      width: 100%;
+      font-size: 1.5rem !important;
+      text-align: center;
+      font-family: sans-serif !important;
+      color: #848484;
+    }
+  }
+  .column {
+    align-items: center;
+    p {
+      font-size: 1.2rem;
+      margin-left: auto;
+    }
+  }
+}

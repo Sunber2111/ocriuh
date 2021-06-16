@@ -1,0 +1,123 @@
+.preview-page {
+  padding: 2rem;
+  background-color: #f0f2f5;
+
+  .wrap-label {
+    width: 100%;
+    justify-content: center !important;
+    display: flex !important;
+  }
+  .row {
+    margin-bottom: -20px !important;
+    .p1 {
+      font-family: sans-serif !important;
+      font-weight: 600 !important;
+      &::after {
+        content: " : ";
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+.wrap-info {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  padding: 1rem !important;
+  margin-bottom: 1rem !important;
+  background-color: white !important;
+}
+.pre-view-check {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  .label {
+    font-family: sans-serif !important;
+    font-weight: 600 !important;
+    margin-right: 0.5rem;
+    width: 87%;
+  }
+}
+
+.pre-checks {
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+
+  margin-bottom: 7rem !important;
+}
+
+.pre-view-load {
+  top: 50%;
+  position: absolute;
+  left: 44%;
+}
+
+.send-bar {
+  position: fixed;
+  bottom: 0 !important;
+  height: 3rem;
+  width: 100%;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  left: 0 !important;
+  border-radius: 1.5rem 1.5rem 0 0 !important;
+
+  display: flex !important;
+  overflow: visible;
+
+  z-index: 1000 !important;
+}
+.btn-circle {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: white !important;
+  z-index: 1000 !important;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 100;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    color: #98999C !important;
+  }
+}
+
+@keyframes placeHolderShimmer{
+  0%{
+      background-position: -468px 0
+  }
+  100%{
+      background-position: 468px 0
+  }
+}
+
+.animated-background {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  height: 1.5rem !important;
+  border-radius: .23rem;
+  width: 50% !important;
+  position: relative;
+}
+
+.bb-1{
+  border-radius: 2rem !important;
+}
+
+.term{
+  padding: 0 !important;
+}

@@ -1,0 +1,25 @@
+.thank-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #626263 !important;
+
+    h1 {
+      font-family: sans-serif !important;
+      font-size: 1.5rem !important;
+    }
+  }
+  .wrap-img {
+    overflow: hidden;
+    img {
+      width: 30rem;
+      height: 100%;
+    }
+  }
+}
